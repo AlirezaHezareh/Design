@@ -5,4 +5,4 @@ adding this text is just a placeholder for being able to commit this file again 
 add egenPortfolio
 
 ska lämna in så tänkte skriva.
-v1.2.1
+v1.2.2
