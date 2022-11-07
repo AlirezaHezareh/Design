@@ -25,7 +25,9 @@ body {
 }
 
 .main {
+    margin: 10px auto;
     flex: 1 0 auto;
+    width: 80%;
 }
 
 .header, .footer {
@@ -37,6 +39,8 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+    /*background-image: url("../../../assets/img/tree2.jpg");*/
+    
 }
 
 /* Title */
@@ -71,14 +75,19 @@ body {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+    background-color: #222;
+    color: #fff;
+    height: 100px;
+    padding: 10px;
 }
 
 .footer a {
-    color: #222;
+    color: #fff;
 }
 
 .footer .social {
     font-size: 2rem;
+   
 }
 
 /* Typografy */
@@ -102,6 +111,10 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
+}
+
+#alireza {
+    width: 600px;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
