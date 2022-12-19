@@ -1,6 +1,7 @@
 ---
 Title: Portfolio 
 Description: This is our index page.
+Tamplate: report
 ---
 
 Home page

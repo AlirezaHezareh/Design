@@ -4,7 +4,7 @@ Tagline: My portfolio.
 Social:
   #github
   - title: Link till sidans github repo.
-    url: https://github.com/AlirezaHezareh/egenportfol
+    url: https://github.com/AlirezaHezareh/Design
     icon: fab fa-github
     
   #twitter

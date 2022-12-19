@@ -1,0 +1,38 @@
+---
+Title: Report 
+Description: grid.
+Template: technologies
+---
+
+
+
+<div class="course-box title">
+    <h2>raport</h2>
+    <p>design kursens samtliga kursmoment</p>
+</div>
+
+<div class="course-box design">
+    <h1>Kmom01</h1>
+    <p>alireza</p>
+</div>
+<div class="course-box webgl">
+    <h1>Kmom02</h1>
+    <p>alireza</p>
+</div>
+<div class="course-box exjobb">
+    <h1>Kmom03</h1>
+</div>
+<div class="course-box jsramverk">
+    <h1>Kmom04</h1>
+</div>
+<div class="course-box webapp">
+    <h1>Kmom05</h1>
+</div><!-- 
+<div class="course-box">
+    <h1>Kmom06</h1>
+</div>
+<div class="course-box project">
+    <h1>Kmom10</h1>
+</div>
+ -->
+
