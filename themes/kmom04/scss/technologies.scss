@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap'); 
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import 'report';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+* {
+    font-family: 'Nerko One', 'cursive';
+    font-size: 1.14rem;
+}
+
+.main { 
+    display: grid;
+    grid-template-columns: 30% 30% auto;
+    grid-template-rows: 200px 200px 200px 200px;
+    gap: 2em 2em;
+    background-color: $background-alternative-color;
+    color: $font-color;
+}
+ 
+.courses-page {
+    display: grid;
+}
+
+.course-box { 
+    grid-column: span 3;
+    border: 1px solid $accent-alternativ-color;
+    padding: 2em;
+}
+
+.links {
+    grid-column: 1 / 2;
+    grid-row: 2 / 9;
+}
+
+.links h2 {
+    font-size: 1.3em;
+}
+
+.links a {
+    display: block;
+    text-align: left;
+}
+
+.kmom {
+    grid-column: 2/4;
+}
+
+.title {
+    grid-column: 1 / 4;
+    grid-row: 1 / 1;
+    margin: 1em;
+}
+
+.title p {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.title h1,
+h2,
+a {
+    text-align: center;
+}
+
+.design {
+    grid-column: 1 /2;
+    grid-row: 2 / 3;
+}
+
+.exjobb {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.jsramverk {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+
+.webgl {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+.webapp {
+    grid-column: 2 / 4;
+    grid-row: 3 / 5;
+}
+
+.logo {
+    align-items: right;
+}
+
+

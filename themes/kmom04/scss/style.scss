@@ -1,0 +1,64 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+/* @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+ */@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import 'report';
+@import 'technologies';
+
+
+
+.header {
+    display: grid;
+    width: 100%;
+}
+
+
+body {
+    background-color: $background-color;
+}
+
+.logo {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
+}
+
+ul {
+    background-color: $background-alternative-color;
+    color: $font-alternative-color;
+    display: inline-block;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+}
+
+li {
+    display: inline-block;
+    padding: 1em;
+    color: $background-alternative-color;
+}
+
+a {
+    color: $accent-color;
+}
+
+img {
+    margin-left: 2rem;
+}
+
+.container {
+    display: inline-block;
+    background-color: $background-alternative-color; 
+}
+
+.social a {
+    background-color: $background-alternative-color;
+    color: $accent-alternativ-color;
+}
+
